@@ -1,0 +1,142 @@
+body {
+  background-color: hsl(216, 12%, 8%);
+  margin: 0;
+  font-family: "Overpass", sans-serif;
+}
+#container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#box {
+  display: flex;
+  border-radius: 30px;
+  flex-direction: column;
+  width: 420px;
+  height: 420px;
+  background-color: #1f2630;
+}
+.content {
+  margin: 41px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#star-img {
+  border-radius: 50%;
+  background-color: #272e38;
+  width: 15px;
+  height: 15px;
+  padding: 18px;
+}
+#sub-btn {
+  background-color: hsl(25, 97%, 53%);
+  border-radius: 100px;
+  height: 40px;
+  width: 350px;
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
+  border: none;
+}
+#sub-btn:hover {
+  background-color: hsl(25, 94%, 42%);
+}
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+.buttons {
+  text-align: center;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #272e38;
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+.button-orange {
+  text-align: center;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+  background-color: hsl(25, 97%, 53%);
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+.buttons:hover {
+  background-color: hsl(217, 12%, 63%);
+}
+/* .buttons: {
+  background-color: hsl(25, 97%, 53%);
+} */
+.text-box {
+  text-align: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+h1 {
+  font-size: ;
+  color: white;
+  font-size: 28px;
+}
+p {
+  line-height: 20px;
+  font-size: 15px;
+  color: hsl(217, 12%, 63%);
+}
+
+/* When submit is pressed   */
+.ty-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.ty-screen h2 {
+  text-align: center;
+  color: white;
+}
+.ty-screen p {
+  text-align: center;
+}
+.counter {
+  background-color: hsl(213, 19%, 18%);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 30px;
+  color: hsl(25, 97%, 53%);
+}
+.ty-image {
+  width: 130px;
+  height: 100px;
+  align-items: center;
+}
+
+/* mobile */
+@media (max-width: 500px) {
+  #box {
+    width: 360px;
+    height: 420px;
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #sub-btn {
+    height: 50px;
+    width: 300px;
+  }
+}
